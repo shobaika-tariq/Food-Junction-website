@@ -1,0 +1,649 @@
+/* Home Page start */
+body{
+    background-image: url(images/images\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: right;
+    /* background-position: right; */
+    background-position-y: 90px;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color: rgb(3, 98, 3);
+    display: flex;
+    color: wheat;
+    border-radius: 50px;
+    gap: 20px;
+}
+
+.imm1{
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.imm2{
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.imm3{
+    height: 35px;
+    margin-top: 15px;
+}
+
+.h1{
+    font-size: 25px;
+    margin-left: -18px;
+    color: wheat;
+}
+
+.h1:hover{
+    font-size: 25px;
+    margin-left: -18px;
+    text-decoration: underline;
+    color: wheat;
+}
+
+.lu{
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.li1{
+    display: flex;
+    position: relative;
+    left: 100px;
+    color: pink;
+    font-size: 20px;
+}
+
+.li1:hover{
+  display: flex;
+  font-size: 20px;
+  color: rgb(245, 221, 13);
+  text-decoration: underline;
+}
+
+.head{
+    color: green;
+    position: relative;
+    right: -100px;
+    top: 40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+    font-size: 20px;
+    position: relative;
+    right: -100px;
+    top: 40px;
+}
+
+.imm4{
+    position: relative;
+    left: 900px;
+    top: -100px;
+    width: 350px;
+}
+
+.btn{
+    position: relative;
+    top: -280px;
+    left: -250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(0, 114, 0);
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    position: relative;
+    top: -300px;
+    left: -250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(4, 116, 4);
+    background-color: rgb(253, 254, 253);
+    border-radius: 20px;
+    border: 2px solid rgb(23, 151, 8);
+}
+.imm5{
+    position: relative;
+    left: -400px;
+    bottom: 225px;
+    height: 40px;
+}
+
+.ul1{
+    display: flex;
+    gap: 110px;
+    margin-top: -80px;
+    height: 40px;
+    position: relative;
+    left: -108px;
+    width: 1800px;
+    background-color: rgb(8, 122, 8);
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.li1{
+    margin-top: 6px;
+}
+
+.li1:hover{
+     color:wheat;
+}
+
+ /* About Us start */
+
+ .abu{
+    height: 600px;
+ }
+.head2{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    text-decoration: underline;
+    color:  rgb(8, 122, 8);
+    font-size: 50px;
+}
+
+.head3{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    color: rgb(3, 105, 3);
+    font-size: 70px;
+    font-style: italic;
+    text-shadow: 0px 5px 15px rgb(90, 86, 86);
+}
+
+.para2{
+    position: relative;
+    left: 80px;
+    top: 80px;
+    font-size: 20px;
+    color: goldenrod;
+    font-style: italic;  
+}
+
+.imm6{
+    position: relative;
+    left: 800px;
+    top: -400px;
+    height: 500px;
+    width: 350px;
+    border: 5px solid black;
+    box-shadow: 50px 25px 25px rgb(75, 73, 73);
+}
+
+.span1{
+    position: relative;
+    bottom: 435px;
+    left: 80px;
+}
+
+.btn2{
+    position: relative;
+    top: -400px;
+    right: 360px;
+     height: 40px;
+    width: 150px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(0, 114, 0);
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+
+.btn2:hover{
+    position: relative;
+    top: -400px;
+    right: 360px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(4, 116, 4);
+    background-color: rgb(253, 254, 253);
+    border-radius: 20px;
+    border: 2px solid rgb(23, 151, 8);
+}
+
+/* food cards start */
+
+.card{
+    background-color: rgb(2, 107, 2);
+    height: 700px;
+}
+
+.head4{
+    color: white;
+    font-size: 25px;
+    justify-self: center;
+    font-family: sans-serif;
+}
+
+.head4:hover{
+    color: rgb(239, 193, 11);
+    font-size: 25px;
+    justify-self: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.head5{
+    color: white;
+    font-size: 35px;
+    justify-self: center;
+    font-family: sans-serif;
+}
+
+.head5:hover{
+    color: rgb(255, 149, 10);
+    font-size: 35px;
+    justify-self: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.food-cards{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.food-card1{
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 400px;
+    width: 300px;
+}
+
+.food-card1:hover{
+    background: #ffffff;
+     transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 10px 10px 10px rgba(228, 226, 226, 0.786);
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+
+.food-card1 img{
+    border: 3px solid rgb(5, 68, 5);
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.food-card1 img:hover{
+    border: 3px solid rgb(5, 68, 5);
+    transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 10px 15px 15px gray;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+
+.food-card2{
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 400px;
+    width: 300px;
+}
+
+.food-card2:hover{
+    background: #ffffff;
+     transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 10px 10px 10px rgba(228, 226, 226, 0.786);
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.food-card2 img{
+    border: 3px solid rgb(5, 68, 5);
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.food-card2 img:hover{
+    border: 3px solid rgb(5, 68, 5);
+    transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 10px 15px 15px gray;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+
+.food-card3{
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 400px;
+    width: 300px;
+}
+
+.food-card3:hover{
+    background: #ffffff;
+     transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 10px 10px 10px rgba(228, 226, 226, 0.786);
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+.food-card3 img{
+    border: 3px solid rgb(5, 68, 5);
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.food-card3 img:hover{
+    border: 3px solid rgb(5, 68, 5);
+    transition: 3s ;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 10px 15px 15px gray;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.head6{
+    color: rgb(3, 91, 3);
+    text-shadow: 5px 5px 5px rgb(160, 155, 155) ;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn3{
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    background-color: darkgreen;
+    color: #ffffff;
+}
+
+.btn3:hover{
+    transition: 3s;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: 3px solid darkgreen;
+    background-color: white;
+    color: darkgreen;
+}
+
+/* food junction menu start */
+
+.food-menu{
+    height: 700px;
+
+}
+
+.head7{
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.head7:hover{
+    font-size: 40px;
+    color: goldenrod;
+    transition: color 2s;
+}
+
+.menu-card {
+    display: flex;
+    gap: 100px;
+}
+
+.menu-card img{
+    position: relative;
+    top: 20px;
+    right: -10px;
+    height: 200px;
+    width: 200px;
+    border: 4px solid darkgreen;
+    border-radius: 20px;
+}
+
+.bar-card{
+    position: relative;
+    left: 20px;
+}
+
+.bar-card h1{
+    text-decoration:underline ;
+    font-size: 40px;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar-card p{
+    color: rgb(5, 57, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar{
+    margin-left: 50px;
+    height: 250px;
+    width: 700px;
+    border: 4px solid darkgreen;
+    border-radius: 30px; 
+    display: flex;
+}
+
+.bar-card button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    background-color: darkgreen;
+    color: #ffffff;
+    
+}
+
+.bar-card button:hover{
+    transition: 3s;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: 3px solid darkgreen;
+    background-color: white;
+    color: darkgreen;
+}
+
+/* food junction video */
+
+ .video{
+    position: relative;
+    top: 800px;
+} 
+
+/* food testimonials */
+
+.test{
+    position: relative;
+    top: 800px;
+    height: 500px; 
+    background-color: rgb(225, 220, 220);
+}
+
+.test-card{
+    display: flex;
+    position: relative;
+    left: 109px;
+    gap: 200px;
+}
+
+.testi-cards{
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 20px 10px 50px ;
+    height: 280px;
+    width: 450px;
+    background-color: #ffffff;
+}
+
+.testi-cards img{
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+}
+
+.testi-cards h1{
+    position: relative;
+    left: 100px;
+    top: -70px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(2, 103, 2);
+}
+
+.testi-cards p{
+    position: relative;
+    left: 100px;
+    top: -90px;
+
+}
+
+.testi-cards button{
+    position: relative;
+    left: 100px;
+    top: -90px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    background-color: darkgreen;
+    color: #ffffff; 
+}
+
+.testi-cards button:hover{
+    transition: 3s;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: 3px solid darkgreen;
+    background-color: white;
+    color: darkgreen;
+} 
+
+.head8{
+    color: rgb(36, 32, 32);
+    position: relative;
+    left: 30px;
+    font-size: 40px;
+}
+
+.head8:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    position: relative;
+    left: 30px;
+    font-size: 40px;
+}
+
+.head9{
+    color: rgb(2, 105, 2);
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    font-size: 50px;
+}
+
+/* footer part start */
+
+.footer{
+    position: relative;
+    top: 800px;
+    display: flex;
+    background-color: rgb(2, 83, 2);
+    height: 250px;
+    gap: 40px;
+}
+
+.footer h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+}
+
+.footer h1:hover{
+    font-size: 30px;
+    color: goldenrod;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+}
+
+.footer p{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+}
+
+.footer li{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+    list-style: none;
+    
+}
+
+.footer li:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+    list-style: none;
+    
+}
+
